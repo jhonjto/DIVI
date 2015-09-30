@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imgMySQL"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgMySQL"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_menu_gallery" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="320dp"
+            android:layout_height="180dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/btnWebsite"
+            android:text="@string/txtDescripcion"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnContactar"
+            style="@style/CustomStyleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/btnLlamar"
+            android:layout_below="@+id/imgMySQL"
+            android:layout_margin="1dp"
+            android:layout_marginTop="1dp"
+            android:drawableLeft="@drawable/mail"
+            android:padding="1dp"
+            android:text="@string/btnContactar"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/btnLlamar"
+            style="@style/CustomStyleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/btnContactar"
+            android:layout_margin="1dp"
+            android:layout_marginTop="1dp"
+            android:drawableLeft="@drawable/telephone"
+            android:padding="1dp"
+            android:text="@string/btnLlamar"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/btnWebsite"
+            style="@style/CustomStyleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/btnLlamar"
+            android:layout_below="@+id/btnLlamar"
+            android:layout_margin="1dp"
+            android:layout_marginTop="1dp"
+            android:drawableLeft="@drawable/ic_action_web_site"
+            android:padding="1dp"
+            android:text="@string/btnWebsite"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+</ScrollView>

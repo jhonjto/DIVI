@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DIVI</string>
+    <string name="bienvenido">Bienvenido!</string>
+    <string name="configuracion">Configuracion</string>
+    <string name="app_id">939040746122504</string>
+    <string name="imgClicking"></string>
+    <string name="fbImg">Imagen Perfil Facebook</string>
+    <string name="imgMySQL">Imagen MySQL</string>
+    <string name="siontImg">Siont</string>
+    <string name="icon"></string>
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string-array name="nav_options">
+        <item>Inicio</item>
+<!--         <item>Preferencias</item> -->
+<!--         <item>Clicks</item> -->
+        <item>Configuración</item>
+        <item>Acerca De</item>
+        <item>Salir</item>
+    </string-array>
+    <array name="navigation_iconos">
+        <item>@drawable/home</item>
+<!--         <item>@drawable/person</item> -->
+<!--         <item>@drawable/like</item> -->
+        <item>@drawable/ic_action_settings</item>
+        <item>@drawable/ic_action_about</item>
+        <item>@drawable/down_arrow</item>
+    </array>
+    <string name="home">Principal</string>
+    <string name="profile">Configuración</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_settings">Configuración</string>
+    <string name="txtnom_Empresa"></string>
+    <string name="txtDescripcion">Descripción</string>
+    <string name="btnContactar">Enviar Mensaje</string>
+    <string name="btnLlamar">Llamar</string>
+    <string name="btnWebsite">Website</string>
+    <string name="txtSiont_Desc">Creado y Desarrollado por: </string>
+    <string name="txtConfiguracion">Configuración</string>
+
+</resources>

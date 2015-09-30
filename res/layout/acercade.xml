@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/custom_font"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSiont_Desc"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/siont"
+        android:contentDescription="@string/siontImg"
+        android:layout_marginTop="55dp" />
+
+    <Button
+        android:id="@+id/btnWebsite_siont"
+        style="@style/CustomStyleButton"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:drawableLeft="@drawable/ic_action_web_site"
+        android:padding="10dp"
+        android:text="@string/btnWebsite"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+</LinearLayout>
